@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="pw">
+      <UniqueIdentifier>{f264eaaa-bb66-46ac-be64-042d97b70128}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pw\chat">
+      <UniqueIdentifier>{1833cc82-6901-4d2a-a645-af92beadc9f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pw\config">
+      <UniqueIdentifier>{b5eac7f7-a854-43e2-8b60-f1e031e2efc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pw\hook">
+      <UniqueIdentifier>{dfb63e96-6ebe-427f-895d-986df3e74d1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pw\input">
+      <UniqueIdentifier>{3fa55fc6-c273-4d2e-9dfd-975a4ee0e6f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pw\items">
+      <UniqueIdentifier>{a834ec29-c063-433e-a36b-99ce200c687a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pw\monster">
+      <UniqueIdentifier>{3e9b64ee-836f-4734-8e9b-0a89475d971f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pw\patch">
+      <UniqueIdentifier>{8ec4ea9e-038a-4b02-a57b-cd6ee28cbb1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{30184249-8b4c-4b0b-aad8-fa0a8ad2cd51}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ChatManager.hpp">
+      <Filter>pw\chat</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>pw\config</Filter>
+    </ClInclude>
+    <ClInclude Include="hook.h">
+      <Filter>pw\hook</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.hpp">
+      <Filter>pw\input</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemManager.hpp">
+      <Filter>pw\items</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterManager.hpp">
+      <Filter>pw\monster</Filter>
+    </ClInclude>
+    <ClInclude Include="patch.h">
+      <Filter>pw\patch</Filter>
+    </ClInclude>
+    <ClInclude Include="ctowc.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="dtoa.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="log.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="time.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyexpr.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="vector.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="pw.h">
+      <Filter>pw</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ChatManager.cpp">
+      <Filter>pw\chat</Filter>
+    </ClCompile>
+    <ClCompile Include="config.cpp">
+      <Filter>pw\config</Filter>
+    </ClCompile>
+    <ClCompile Include="hook.cpp">
+      <Filter>pw\hook</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>pw\input</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemManager.cpp">
+      <Filter>pw\items</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterManager.cpp">
+      <Filter>pw\monster</Filter>
+    </ClCompile>
+    <ClCompile Include="patch.cpp">
+      <Filter>pw\patch</Filter>
+    </ClCompile>
+    <ClCompile Include="ctowc.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="dtoa.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="log.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="time.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyexpr.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="pw.cpp">
+      <Filter>pw</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
